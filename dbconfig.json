@@ -1,0 +1,7 @@
+{
+    "mysqluser": "sql_user",
+    "mysqlpass": "sql_pass",
+    "mysqlhost": "sql_host",
+    "mysqldata": "sql_database",
+    "mysqlport": "3306"
+  }
