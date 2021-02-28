@@ -50,6 +50,12 @@ app.use(bodyParser.json())
 app.set('view engine', 'ejs');
 
 
+app.get('/' , function (req, res){
+
+res.send('home')
+
+})
+
 app.get('/test' , function (req, res) {
     console.log('test')
     res.send('test')
