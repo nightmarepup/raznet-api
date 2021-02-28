@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
+const ejsLint = require('ejs-lint');
 
 
 // loads the config files
@@ -51,8 +52,7 @@ app.set('view engine', 'ejs');
 
 
 app.get('/' , function (req, res){
-
-res.send('home')
+res.render('/index');
 
 })
 
